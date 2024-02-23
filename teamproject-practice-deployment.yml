@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: teamproject-practice
+spec:
+  replicas: 2
+  strategy:
+    type: RollingUpdate
+  minReadySeconds: 10
+  selector:
+    matchLabels:
+      type: teamproject-practice
+  template:
+    metadata:
+      labels:
+        type: teamproject-practice
+    spec:
+      containers:
+        - name: teamproject-practice-container
+          image: gilms0730/teamproject-practice:1.VERSION
+          ports:
+            - containerPort: 8080
+      terminationGracePeriodSeconds: 5
