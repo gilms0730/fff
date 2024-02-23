@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="2" failures="0" errors="0" time="5.845">
+  <testsuite name="로그인" errors="0" failures="0" skipped="0" timestamp="2024-02-20T07:34:59" time="5.752" tests="2">
+    <testcase classname="로그인 정상 로그인" name="로그인 정상 로그인" time="0.406">
+    </testcase>
+    <testcase classname="홈화면 조회 정보 조회" name="홈화면 조회 정보 조회" time="0.393">
+    </testcase>
+  </testsuite>
+</testsuites>
