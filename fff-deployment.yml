@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: teamproject-practice
+  name: fff
 spec:
   replicas: 2
   strategy:
@@ -9,15 +9,15 @@ spec:
   minReadySeconds: 10
   selector:
     matchLabels:
-      type: teamproject-practice
+      type: fff
   template:
     metadata:
       labels:
-        type: teamproject-practice
+        type: fff
     spec:
       containers:
-        - name: teamproject-practice-container
-          image: gilms0730/teamproject-practice:1.VERSION
+        - name: fff-container
+          image: gilms0730/fff:1.VERSION
           ports:
             - containerPort: 8080
       terminationGracePeriodSeconds: 5
