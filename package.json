@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build && docker build --tag tessssssssy/frontend:3.2 . ",
+    "build": "vue-cli-service build && docker build --tag gilms0730/fff:1.VERSION . ",
     "lint": "vue-cli-service lint",
     "test": "jest"
   },
