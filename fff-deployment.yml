@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: fff-container
-          image: gilms0730/fff:1.VERSION
+          image: minseokgil/fff:v1.VERSION
           ports:
             - containerPort: 8080
       terminationGracePeriodSeconds: 5
